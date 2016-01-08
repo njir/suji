@@ -1,14 +1,12 @@
 
 
 # SUJI [![Build Status](https://travis-ci.org/naver-d2-suji/suji.svg)](https://travis-ci.org/naver-d2-suji/suji)
-> 소상공인들이 수지 맞기를 기원하는 웹 기반 오픈소스 POS 시스템
+> Web based POS system
 ![SUJI](https://cloud.githubusercontent.com/assets/7614353/12139794/1329ce44-b4a6-11e5-90a2-dd51d039e01d.png)
-- [**소개 영상**](https://youtu.be/0mEFdHfyu00)
+- [** Video **](https://youtu.be/0mEFdHfyu00)
 &nbsp;
 
 ## Development Stack
-> 개발 언어 및 스택 소개
-
 - Language : Javascript
 - Framework : [Node.js](https://nodejs.org/), [Express](http://expressjs.com/)
 - Use Modules : async, should, supertest, mocha, crypto, jQuery
@@ -44,14 +42,14 @@ npm install --global grunt
 
 | Feature |	Method	| Request URL | Todo Status |
 | :------------ |	:-------:	| :-----------------| :--------: |
-| 회원가입 |	POST	| /api/v1.1/user/register | complete |
-| 로그인 |	GET	| /api/v1.1/user/login | complete |
-| 카테고리 목록 |	GET	| /api/v1.1/category | complete |
-| 카테고리 추가 |	POST	| /api/v1.1/category/insert | complete |
-| 카테고리별 메뉴 목록 |	GET	| /api/v1.1/menu/:category | complete |
-| 메뉴 목록 |	GET	| /api/v1.1/menu | complete |
-| 메뉴 추가 |	POST	| /api/v1.1/menu/insert | complete |
-| 메뉴 삭제 |	POST	| /api/v1.1/menu/delete | complete |
-| 구매 목록 |	GET	| /api/v1.1/purchase | complete |
-| 구매 리스트 추가 |	POST	| /api/v1.1/purchase/add | complete |
-| 구매 리스트 삭제 |	POST	| /api/v1.1/purchase/delete | complete |
+| Register |	POST	| /api/v1.1/user/register | complete |
+| Login |	GET	| /api/v1.1/user/login | complete |
+| Category List |	GET	| /api/v1.1/category | complete |
+| Category Add |	POST	| /api/v1.1/category/insert | complete |
+| Menu list by Category |	GET	| /api/v1.1/menu/:category | complete |
+| Menu List |	GET	| /api/v1.1/menu | complete |
+| Add Menu|	POST	| /api/v1.1/menu/insert | complete |
+| Delete Menu |	POST	| /api/v1.1/menu/delete | complete |
+| Purchase List |	GET	| /api/v1.1/purchase | complete |
+| Add Purchase |	POST	| /api/v1.1/purchase/add | complete |
+| Delete Purchase |	POST	| /api/v1.1/purchase/delete | complete |
