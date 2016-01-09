@@ -107,6 +107,8 @@ angular.module('POS')
             if (response) console.log(response);
             alert("Order total: $" + $scope.getSum() + "\n\nPayment received. Thanks.");
           });
+          
+          
         };
 
         $scope.clearOrder = function() {

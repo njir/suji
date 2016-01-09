@@ -35,8 +35,10 @@ exports.add = function(req, res) {
     });
   });
   if(result == true) {
+    // res.status(200).send({status:'success'});
     res.redirect('/');
   } else {
+    // res.status(500).send({status:'error', message : 'Error! Add Purchase Errory'});
     res.send('<script>alert("Error! Add PURCHASE Error");history.back();</script>');
   }
 };
