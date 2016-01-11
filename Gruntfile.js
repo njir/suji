@@ -19,13 +19,13 @@ module.exports = function (grunt) {
         failOnError: true
       },
       create_db :{
-        command : 'mysql -u root < server/resources/v1.1/createDB.sql'
+        command : 'mysql -u root < server/resources/v1.2/createDB.sql'
       },
       crete_table : {
-        command : 'mysql -u root suji_dev < server/resources/v1.1/createSchema.sql'
+        command : 'mysql -u root suji_dev < server/resources/v1.2/createSchema.sql'
       },
       insert_date : {
-        command : 'mysql -u root suji_dev < server/resources/v1.1/insertData.sql'
+        command : 'mysql -u root suji_dev < server/resources/v1.2/insertData.sql'
       }
     },
 
